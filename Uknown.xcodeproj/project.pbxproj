@@ -23,6 +23,7 @@
 		81EC79B91D668E5C0055D208 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC79B81D668E5C0055D208 /* Musician.swift */; };
 		81EC79BB1D6695C10055D208 /* MusicianDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC79BA1D6695C10055D208 /* MusicianDetailController.swift */; };
 		81EC79BD1D6743010055D208 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC79BC1D6743010055D208 /* EventDetailViewController.swift */; };
+		81EC79BF1D6750940055D208 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EC79BE1D6750940055D208 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		81EC79B81D668E5C0055D208 /* Musician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
 		81EC79BA1D6695C10055D208 /* MusicianDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicianDetailController.swift; sourceTree = "<group>"; };
 		81EC79BC1D6743010055D208 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		81EC79BE1D6750940055D208 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				81EC79B41D668E120055D208 /* MusiciansViewController.swift */,
 				81EC79BA1D6695C10055D208 /* MusicianDetailController.swift */,
 				81EC79BC1D6743010055D208 /* EventDetailViewController.swift */,
+				81EC79BE1D6750940055D208 /* FeedViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				81EC79821D6683480055D208 /* Uknown.xcdatamodeld in Sources */,
 				81EC79B31D668DF20055D208 /* EventsViewController.swift in Sources */,
 				81EC79BD1D6743010055D208 /* EventDetailViewController.swift in Sources */,
+				81EC79BF1D6750940055D208 /* FeedViewController.swift in Sources */,
 				81EC79BB1D6695C10055D208 /* MusicianDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
