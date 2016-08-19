@@ -218,17 +218,28 @@
         <scene sceneID="52P-WU-Ycj">
             <objects>
                 <tableViewController id="ZzH-De-47M" customClass="FeedViewController" customModule="Uknown" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dls-f2-GoO">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="375" sectionHeaderHeight="28" sectionFooterHeight="28" id="dls-f2-GoO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gmY-e0-Dfp">
-                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="375" height="375"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gmY-e0-Dfp" id="Lak-i6-bhH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="374.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ba0-Re-5EL">
+                                            <rect key="frame" x="8" y="8" width="359" height="358.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ba0-Re-5EL" firstAttribute="top" secondItem="Lak-i6-bhH" secondAttribute="topMargin" id="Jv9-ev-Bnc"/>
+                                        <constraint firstItem="Ba0-Re-5EL" firstAttribute="leading" secondItem="Lak-i6-bhH" secondAttribute="leadingMargin" id="MGH-1p-OZh"/>
+                                        <constraint firstItem="Ba0-Re-5EL" firstAttribute="trailing" secondItem="Lak-i6-bhH" secondAttribute="trailingMargin" id="hbu-Xb-XcX"/>
+                                        <constraint firstItem="Ba0-Re-5EL" firstAttribute="bottom" secondItem="Lak-i6-bhH" secondAttribute="bottomMargin" id="nXN-vc-y0U"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -324,9 +335,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="ZzH-De-47M" kind="relationship" relationship="viewControllers" id="6s0-BJ-AAx"/>
                         <segue destination="XRC-sb-i3c" kind="relationship" relationship="viewControllers" id="E6W-EH-JCD"/>
                         <segue destination="Bdd-gl-PHX" kind="relationship" relationship="viewControllers" id="CXj-ME-8D4"/>
-                        <segue destination="ZzH-De-47M" kind="relationship" relationship="viewControllers" id="6s0-BJ-AAx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hj5-Kw-fUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
